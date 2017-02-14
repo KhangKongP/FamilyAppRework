@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FamilyAppRework"
+             x:Class="FamilyAppRework.MainPage"
+             BackgroundColor ="Purple">
+  <ScrollView>
+  <StackLayout VerticalOptions ="Center" BackgroundColor ="Yellow">
+  <StackLayout.Children>
+  <Label Text="Mee is my mom."
+           BackgroundColor="Red"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"
+           Font="Bold,50" />
+  <Label Text="Nha is my dad."
+           BackgroundColor="Pink"
+           VerticalOptions="Center"
+          Font="Bold,60"
+           HorizontalOptions="Center" />
+  <Label  Text="Zachariah is my son."
+           BackgroundColor="Blue"
+          Font="Bold,70"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+  <Label Text="Nouzong is my wife."
+         Font="Bold,80"
+           BackgroundColor="Green"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+  <Label Text="Gandalf is my dog."
+         Font="Bold,100"
+           TextColor ="White"
+           BackgroundColor="Black"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+  </StackLayout.Children>
+   
+  </StackLayout>
+  </ScrollView>
+</ContentPage>
