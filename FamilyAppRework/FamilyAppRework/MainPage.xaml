@@ -33,7 +33,8 @@
            BackgroundColor="Black"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
-  </StackLayout.Children>
+  </StackLayout.Children> 
+    
    
   </StackLayout>
   </ScrollView>
